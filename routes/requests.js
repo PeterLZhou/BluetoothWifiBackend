@@ -1,13 +1,10 @@
 let net = require('net')
 
 export let receivefromB = (req, res, next) => {
-    let messagetype = req.query.type
-    if (messagetype == 1){
-        res.json({notes: "Hi"})
-    }
-    else{
-        res.json({notes: "Bye"})
-    }
+    let ip = req.body.srcip
+    let port = 8888
+    let message = req.body.message
+    sendtoC(ip, port, message)
 };
 
 export let sendtoC = (ip, port, message) => {
