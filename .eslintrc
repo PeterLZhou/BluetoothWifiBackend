@@ -1,0 +1,60 @@
+{
+ "parser": "babel-eslint",
+ "env": {
+   "node": true,
+   "builtin": true,
+   "mocha": true
+ },
+ "settings": {
+    "ecmascript": 6,
+    "jsx": true
+ },
+ "rules": {
+   "block-scoped-var": 0,
+   "camelcase": 0,
+   "curly": [
+     2,
+     "all"
+   ],
+   "eqeqeq": [
+     2
+   ],
+   "global-strict": [
+     0,
+     "never"
+   ],
+   "comma-dangle": [1, "never"],
+   "no-extra-semi": 1,
+   "guard-for-in": 2,
+   "new-cap": 0,
+   "no-bitwise": 2,
+   "no-caller": 2,
+   "no-empty": 2,
+   "no-extend-native": 2,
+   "no-irregular-whitespace": 2,
+   "no-iterator": 0,
+   "no-new": 0,
+   "no-redeclare": 0,
+   "no-sequences": 2,
+   "no-undef": 0,
+   "no-unused-vars": 0,
+   "no-use-before-define": 1,
+   "no-with": 2,
+   "quotes": [
+     1,
+     "single",
+     "avoid-escape"
+   ],
+   "semi": [1, "always"],
+   "valid-typeof": 0,
+   "wrap-iife": [
+     0,
+     "inside"
+   ]
+ },
+ "globals": {
+   "require": true,
+   "process": true,
+   "module": true
+ }
+}

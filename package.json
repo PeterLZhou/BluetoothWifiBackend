@@ -1,0 +1,53 @@
+{
+  "name": "bluetoothwifibackend",
+  "version": "1.0.0",
+  "description": "backend for networks project",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --compilers js:babel-register",
+    "start": "babel-node index.js --presets es2015"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterLZhou/BluetoothWifiBackend.git"
+  },
+  "author": "PeterLZhou",
+  "dependencies": {
+    "babel-cli": "^6.7.7",
+    "babel-eslint": "^6.0.3",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-register": "^6.7.2",
+    "bluebird": "^3.3.5",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "lodash": "^4.11.1",
+    "moment": "^2.14.1",
+    "natural": "^0.4.0",
+    "pg": "^4.5.3",
+    "request-promise": "^3.0.0",
+    "rethinkdb": "^2.3.0",
+    "sentiment": "^1.0.6",
+    "sequelize": "^3.21.0",
+    "superagent": "^1.8.3",
+    "thinky": "^2.2.8",
+    "umzug": "^1.10.0",
+    "winston": "^2.2.0",
+    "multer": "^1.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "chai": "^3.5.0",
+    "eslint": "^2.8.0",
+    "mocha": "^2.4.5",
+    "shortid": "^2.2.6",
+    "xml2js": "^0.4.17"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PeterLZhou/BluetoothWifiBackend/issues"
+  },
+  "homepage": "https://github.com/PeterLZhou/BluetoothWifiBackend#readme"
+}
