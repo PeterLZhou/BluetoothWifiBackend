@@ -5,6 +5,7 @@ export let receivefromB = (req, res, next) => {
     let port = 8888
     let message = req.body.message
     sendtoC(ip, port, message)
+    res.end('done')
 };
 
 export let sendtoC = (ip, port, message) => {
