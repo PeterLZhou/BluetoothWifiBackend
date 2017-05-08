@@ -9,6 +9,9 @@ export let receivefromB = (req, res, next) => {
 };
 
 export let sendtoC = (ip, port, message) => {
+    console.log(ip)
+    console.log(port)
+    console.log(message)
     console.log('sending')
     let client = new net.Socket()
     client.connect(port, ip, () => {
